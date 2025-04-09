@@ -16,13 +16,13 @@ python setup.py
 
 This will:
 
-Create a local Python virtual environment
+  Create a local Python virtual environment
 
-Install all required dependencies (always installs the latest Gradio)
+  Install all required dependencies (always installs the latest Gradio)
 
-Prompt you for your D-ID API key
+  Prompt you for your D-ID API key
 
-Optionally launch the app immediately
+  Optionally launch the app immediately
 
 🧐 Features
 
