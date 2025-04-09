@@ -22,8 +22,8 @@ This will:
 
 - Create a local Python virtual environment
 - Install all required dependencies (always installs the latest Gradio)
-- Prompt you for your D-ID API key
-- Optionally launch the app immediately
+- Optionally launch the app immediately 
+- Note:  You must add you D-id API Key! after launching the app using the config tab of the app  
 
 ## 🧐 Features
 
