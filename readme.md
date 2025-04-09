@@ -89,14 +89,8 @@ Free or paid D-ID API Key
 
 🗃 File Structure
 
-d-id-studio-pro/
-├── app.py               # Main Gradio app
-├── setup.py             # Setup + install script
-├── launch_app.bat       # (Optional) Windows one-click launcher
-├── launch_app.sh        # (Optional) macOS/Linux launcher
-├── api_config.json      # Config file (auto-generated)
-├── requirements.txt     # Dependency list
-└── README.md
+![image](https://github.com/user-attachments/assets/752911f6-f84b-478e-9bd0-bb2713f4941e)
+
 
 📄 License
 
