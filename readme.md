@@ -7,8 +7,8 @@ D-ID Studio Pro is a Gradio-powered local app for generating AI-driven talking h
 
 ### ✅ 1. Clone the Repo
 
-```bash
-https://github.com/jjmlovesgit/d-id-studio-pro.git
+```
+git clone https://github.com/jjmlovesgit/d-id-studio-pro.git
 cd d-id-studio-pro
 ```
 
