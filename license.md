@@ -1,0 +1,1 @@
+MIT License. Not affiliated with D-ID. Use responsibly.
