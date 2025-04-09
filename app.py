@@ -197,14 +197,6 @@ def create_app_interface():
                             label="Voice Style (Optional)",
                             placeholder="e.g., Cheerful, Friendly"
                         )
-                        webhook = gr.Textbox(
-                            label="Webhook URL",
-                            placeholder="https://your-server.com/webhook"
-                        )
-                        external_tts = gr.Textbox(
-                            label="External TTS Key",
-                            placeholder='{"elevenlabs": "YOUR_KEY"}'
-                        )
                     
                     submit_btn = gr.Button("Create Talk", variant="primary")
                 
@@ -364,11 +356,10 @@ def create_app_interface():
                     },
                     "config": {
                         "fluent": "false",
-                        **({"stitch": True} if args[9] else {}),
-                        **({"persist": True} if args[10] else {}),
-                        **({"webhook": args[8]} if args[8] else {})
+                        **({"stitch": True} if args[7] else {}),
+                        **({"persist": True} if args[8] else {})
                     },
-                    **({"driver_url": args[7]} if args[7] else {})
+                    **({"driver_url": args[9]} if args[9] else {})
                 }
 
                 # Remove None values
@@ -444,8 +435,8 @@ def create_app_interface():
             fn=create_talk,
             inputs=[
                 source_url, script_type, text_input, audio_url,
-                voice_provider, voice_id, voice_style, driver_url,
-                webhook, stitch, persist, external_tts
+                voice_provider, voice_id, voice_style, stitch,
+                persist, driver_url
             ],
             outputs=[talk_id, status, result_url, video_preview, download_status, api_logs],
             api_name="create_talk"
