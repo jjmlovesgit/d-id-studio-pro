@@ -1,6 +1,7 @@
 🎨 D-ID Studio Pro
 
 D-ID Studio Pro is a Gradio-powered local app for generating AI-driven talking head videos using the D-ID API. It features a clean, no-code interface with support for text or audio scripts, voice selection, driver customization, and media previews.
+![image](https://github.com/user-attachments/assets/873c64bd-131f-4a1e-a72a-8e70e0f831eb)
 
 🚀 Quick Start
 
